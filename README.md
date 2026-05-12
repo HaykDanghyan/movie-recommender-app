@@ -124,9 +124,10 @@ UI runs at `http://localhost:8501`.
 ---
 
 ## Screenshots
+<img width="1507" height="761" alt="Screenshot 2026-05-12 at 11 56 47 AM" src="https://github.com/user-attachments/assets/9d45ae2a-b239-49c7-a402-c5061bdc7bfb" />
+<img width="1509" height="759" alt="Screenshot 2026-05-12 at 11 57 10 AM" src="https://github.com/user-attachments/assets/f68d8424-0c69-491c-bd2c-cc7493342df9" />
 
-![Screenshot](image.png)
-![Image](image-1.png)
+
 
 ## License
 
