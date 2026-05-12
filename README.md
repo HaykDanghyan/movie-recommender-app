@@ -32,17 +32,26 @@
 
 ```
 ├── app/
-│   ├── main.py          # FastAPI routes
-│   ├── recommender.py   # TF-IDF engine
-│   ├── tmdb.py          # TMDB API client
-│   ├── schemas.py       # Pydantic models
-│   └── config.py        # Environment config
-├── streamlit_app.py     # Streamlit UI
-├── requirements.txt
-└── README.md
+│   ├── .env.example         # Example env file
+│   ├── config.py            # App configuration
+│   ├── main.py              # FastAPI routes
+│   ├── recommender.py       # TF-IDF engine
+│   ├── schemas.py           # Pydantic models
+│   └── tmdb.py              # TMDB API client
+├── data/
+│   └── movie_data.csv       # Movie dataset
+├── frontend/
+│   └── streamlit_app.py     # Streamlit UI
+├── models/
+│   ├── df_model.pkl         # Dataframe model
+│   ├── indices.pkl          # Title-to-index mapping
+│   ├── tfidf_matrix.pkl     # Precomputed TF-IDF matrix
+│   └── tfidf.pkl            # Fitted TF-IDF vectorizer
+├── .gitignore
+├── Movies.ipynb             # Data exploration & model training notebook
+├── README.md
+└── requirements.txt
 ```
-
----
 
 ## Getting Started
 
